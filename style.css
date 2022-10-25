@@ -1,0 +1,16 @@
+body {
+    margin: 2rem;
+}
+
+button {
+    margin-right: 1rem;
+}
+
+table {
+    margin-top: 2rem;
+}
+
+.btn {
+    background-color: blueviolet;
+    margin-bottom: 1rem;
+}

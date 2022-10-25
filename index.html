@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tarefa 6 - Array</title>
+  </head>
+  <body class="container-sm">
+    <div class="container">
+      <form id="form">
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            
+          />
+          <label for="name">Nome</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="email"
+            
+          />
+          <label for="email">Email</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="telephone"
+            
+          />
+          <label for="telephone">Telefone</label>
+        </div>
+        <button class="btn">Salvar</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <table class="table table-striped">
+        <button class="btn" onclick="getUsersFromApi()">Atualizar</button>
+        <thead>
+          <th>ID</th>
+          <th>NOME</th>
+          <th>E-MAIL</th>
+          <th>TELEFONE</th>
+        </thead>
+        <tbody id="usersList"></tbody>
+      </table>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
